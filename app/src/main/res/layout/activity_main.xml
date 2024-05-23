@@ -11,7 +11,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Welcome. Press Scan to find devices"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,16 +19,16 @@
         app:layout_constraintVertical_bias="0.050000012" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/myRecyclerView"
+        android:id="@+id/dummyContainer"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="100dp"
         android:layout_marginBottom="100dp"
-        app:layout_constraintBottom_toBottomOf="@id/submit_scan_button"
+        app:layout_constraintBottom_toBottomOf="@id/little_scan_button"
         app:layout_constraintTop_toTopOf="@id/textView" />
 
     <Button
-        android:id="@+id/submit_scan_button"
+        android:id="@+id/little_scan_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
@@ -37,26 +37,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/readlightLevelButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="648dp"
-        android:text="lightLevel"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.903"
-        app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/writeLightLevelButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="676dp"
-        android:text="writeLightLevel"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.056"
-        app:layout_constraintStart_toStartOf="parent" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
